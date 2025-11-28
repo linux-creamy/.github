@@ -6,39 +6,39 @@
 ## Installation With Script
 
 generate mirrorlist
-'''
+```
 pacman -Syy
-'''
+```
 
 install git
 
-'''
+```
 pacman -S git
-'''
+```
 
 masuk ke dalam root
 
-'''
+```
 cd /
-'''
+```
 
 git clone repository installer creamy os
 
-'''
+```
 git clone https://github.com/linux-creamy/installer
-'''
+```
 
 ubah file config
 
-'''
+```
 nvim /installer/post/config
-'''
+```
 
 jalankan prep.sh
 
-'''
+```
 /bin/bash install
-'''
+```
 <!--
 
 **Here are some ideas to get you started:**
