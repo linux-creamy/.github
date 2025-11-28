@@ -1,44 +1,32 @@
 ## Hi there 👋
 
+## Creamy Installer
+Creamy installation module
 
-## Tester Installation Method
 
-## Installation With Script
-
-generate mirrorlist
+### reset system
 ```
-pacman -Syy
+pacman -Syy git --noconfirm
 ```
-
-install git
-
 ```
-pacman -S git
+git clone https://github.com/linux-creamy/installer.git  /install
 ```
-
-masuk ke dalam root
-
 ```
-cd /
+/bin/bash /install/creamy --reset
 ```
 
-git clone repository installer creamy os
 
+### testing build
 ```
-git clone https://github.com/linux-creamy/installer
+pacman -Syy git --noconfirm
+```
+```
+git clone https://github.com/linux-creamy/installer.git  /install
+```
+```
+/bin/bash /install/creamy --install
 ```
 
-ubah file config
-
-```
-nvim /installer/post/config
-```
-
-jalankan prep.sh
-
-```
-/bin/bash install
-```
 <!--
 
 **Here are some ideas to get you started:**
